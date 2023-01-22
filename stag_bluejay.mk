@@ -8,6 +8,9 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/stag/main.mk)
 
+# Enable UDFPS icons & animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Inherit device configuration
 $(call inherit-product, device/google/bluejay/aosp_bluejay.mk)
 $(call inherit-product, device/google/gs101/lineage_common.mk)
