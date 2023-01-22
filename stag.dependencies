@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "device_google_gs101",
+    "target_path": "device/google/gs101"
+  }
+  {
+    "repository": "StatiXOS/android_vendor_google_interfaces",
+    "target_path": "vendor/google/interfaces",
+    "remote": "github",
+    "branch": "tm-qpr1"
+  }
+]

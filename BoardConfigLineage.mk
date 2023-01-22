@@ -1,10 +1,11 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2023 The StagOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 BUILD_BROKEN_DUP_RULES := true
+#DİSABLE_ARTİFACT_PART_REQUİREMENTS := true
 
 # Kernel
 TARGET_KERNEL_DTBO_PREFIX := dts/

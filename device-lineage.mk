@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2023 The StagOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-stag
 
 # EUICC
 PRODUCT_COPY_FILES += \
