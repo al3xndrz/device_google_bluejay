@@ -2,11 +2,22 @@
   {
     "repository": "device_google_gs101",
     "target_path": "device/google/gs101"
-  }
+  },
+  {
+    "repository": "android_vendor_google_pixelparts",
+    "target_path": "vendor/google/pixelparts",
+    "remote": "gitlab-stag"
+  },
   {
     "repository": "StatiXOS/android_vendor_google_interfaces",
     "target_path": "vendor/google/interfaces",
     "remote": "github",
     "branch": "tm-qpr1"
+  },
+  {
+    "repository": "wilmabumsson/vendor_google_bluejay",
+    "target_path": "vendor/google/bluejay",
+    "remote": "gitlab",
+    "branch": "stag"
   }
 ]
