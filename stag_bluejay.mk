@@ -7,6 +7,7 @@
 # Inherit some common StagOS stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/stag/main.mk)
+BUILD_TYPE := OFFICIAL
 
 # Enable UDFPS icons & animations
 EXTRA_UDFPS_ANIMATIONS := true
