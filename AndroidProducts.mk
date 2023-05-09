@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The StagOS Project
+# Copyright (C) 2023 The Derpfest Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_bluejay.mk \
+    $(LOCAL_DIR)/derp_bluejay.mk \
     $(LOCAL_DIR)/factory_bluejay.mk \
     $(LOCAL_DIR)/lineage_bluejay.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    stag_bluejay-userdebug
+    derp_bluejay-userdebug

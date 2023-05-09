@@ -1,16 +1,20 @@
 #
-# Copyright (C) 2023 The StagOS Project
+# Copyright (C) 2023 The Derpfest Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common StagOS stuff.
+# Inherit some common Derpfest stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/stag/main.mk)
-BUILD_TYPE := OFFICIAL
-
-# Enable UDFPS icons & animations
+$(call inherit-product, vendor/derp/config/common_full_phone.mk) 
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
+
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/bluejay/aosp_bluejay.mk)
@@ -20,7 +24,7 @@ $(call inherit-product, device/google/bluejay/device-lineage.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6a
-PRODUCT_NAME := stag_bluejay
+PRODUCT_NAME := derp_bluejay
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
