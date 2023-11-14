@@ -19,7 +19,7 @@ USE_LEGACY_BOOTANIMATION := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit device configuration
-$(call inherit-product, device/google/bluejay/syberia_bluejay.mk)
+$(call inherit-product, device/google/bluejay/aosp_bluejay.mk)
 $(call inherit-product, device/google/gs101/syberia_common.mk)
 $(call inherit-product, device/google/bluejay/device-lineage.mk)
 
