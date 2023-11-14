@@ -23,7 +23,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit device configuration
 $(call inherit-product, device/google/bluejay/aosp_bluejay.mk)
 $(call inherit-product, device/google/gs101/syberia_common.mk)
-$(call inherit-product, device/google/bluejay/device-lineage.mk)
+$(call inherit-product, device/google/bluejay/device-syberia.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
