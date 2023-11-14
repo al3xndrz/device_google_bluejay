@@ -4,9 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Derpfest stuff.
+
 TARGET_DISABLE_EPPE := true
+
 $(call inherit-product, vendor/syberia/common.mk) 
+
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
