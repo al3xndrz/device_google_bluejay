@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-derp
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-syberia
 
 # EUICC
 PRODUCT_COPY_FILES += \
