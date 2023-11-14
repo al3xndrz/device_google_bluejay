@@ -15,10 +15,11 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_bluejay.mk \
-    $(LOCAL_DIR)/factory_bluejay.mk \
-    $(LOCAL_DIR)/lineage_bluejay.mk
+    $(LOCAL_DIR)/syberia_bluejay.mk \
+    $(LOCAL_DIR)/factory_bluejay.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    derp_bluejay-userdebug
+    syberia_markw-user \
+    syberia_markw-userdebug \
+    syberia_markw-eng
