@@ -20,6 +20,6 @@ PRODUCT_MAKEFILES := \
 
 
 COMMON_LUNCH_CHOICES := \
-    syberia_markw-user \
-    syberia_markw-userdebug \
-    syberia_markw-eng
+    syberia_bluejay-user \
+    syberia_bluejay-userdebug \
+    syberia_bluejay-eng
